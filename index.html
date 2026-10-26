@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXUS REALM — Enter The Next Level | Premium Gaming Platform & Esports</title>
+  
+  <meta name="description" content="Discover next-generation AAA games, compete in high-stakes esports tournaments, and join the global gaming community on Nexus Realm.">
+  <meta name="keywords" content="gaming platform, esports tournaments, AAA games, cyberpunk RPG, tactical shooters, gaming community">
+  <meta name="theme-color" content="#080911">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NEXUS REALM — Enter The Next Level">
+  <meta property="og:description" content="The ultimate competitive gaming sanctuary. Discover next-gen titles, compete in global esports tournaments, and forge your legacy.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300f0ff'%3E%3Cpolygon points='12,2 22,8.5 22,15.5 12,22 2,15.5 2,8.5' stroke='%23a855f7' stroke-width='2'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Orbitron, Rajdhani, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Ambient Neon Lighting -->
+  <div class="ambient-lights">
+    <div class="ambient-light ambient-light-1"></div>
+    <div class="ambient-light ambient-light-2"></div>
+    <div class="ambient-light ambient-light-3"></div>
+  </div>
+
+  <!-- Interactive Cyber Canvas -->
+  <canvas id="cyber-canvas"></canvas>
+
+  <!-- Application Shell -->
+  <div id="app">
+    <!-- Navbar Container -->
+    <div id="nav-root"></div>
+
+    <!-- Main Dynamic Route Viewport -->
+    <main id="main-content" role="main"></main>
+
+    <!-- Footer Container -->
+    <div id="footer-root"></div>
+
+    <!-- Modals & Lightboxes -->
+    <div id="modals-root"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script src="js/auth-client.js"></script>
+  <script src="js/neon-client.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/components/particles.js"></script>
+  <script src="js/components/navbar.js"></script>
+  <script src="js/components/footer.js"></script>
+  <script src="js/components/modals.js"></script>
+
+  <!-- Views -->
+  <script src="js/views/home.js"></script>
+  <script src="js/views/games.js"></script>
+  <script src="js/views/gameDetails.js"></script>
+  <script src="js/views/news.js"></script>
+  <script src="js/views/newsArticle.js"></script>
+  <script src="js/views/tournaments.js"></script>
+  <script src="js/views/community.js"></script>
+  <script src="js/views/about.js"></script>
+  <script src="js/views/contact.js"></script>
+  <script src="js/views/auth.js"></script>
+  <script src="js/views/profile.js"></script>
+
+  <!-- Router and Bootstrap -->
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
